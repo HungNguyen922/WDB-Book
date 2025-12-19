@@ -1,0 +1,41 @@
+body {
+    align-content: center;
+    text-align: center;
+    background-image: url(arts/WDBC.png);
+    background-size: 100vw;
+}
+
+h1 {
+    color: white;
+}
+
+ h2 {
+    color: white;
+}
+ 
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: mediumpurple;
+}
+
+.itemCol {
+    align-content: center;
+    display: grid;
+    grid-column: span 6;
+    grid-template-columns: repeat(5, 6rem);
+}
+
+.itemDisplay {
+    align-content: center;
+    display: grid;
+    grid-column: span 6;
+    grid-template-columns: repeat(5, 6rem);
+
+}
